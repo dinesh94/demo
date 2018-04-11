@@ -7,7 +7,7 @@ var b = http.createServer(function (request, response) {
    response.writeHead(200, {'Content-Type': 'text/plain'});
    
    // Send the response body as "Hello World"
-   response.end('Hello Neha, This is just a simple program :) \n');
+   response.write('Hello Neha, This is just a simple program :) \n');
    response.end('Hello World .. \n');
 }); 
 
