@@ -8,7 +8,7 @@ var b = http.createServer(function (request, response) {
    
    // Send the response body as "Hello World"
    response.write('Hello Neha, This is just a simple program :) \n');
-   response.end('Hello World .. \n');
+   response.end('Hello World \n');
 }); 
 
 b.listen(80);
